@@ -1,3 +1,8 @@
+#Caleb Smith-Salzberg, Shaina Peters
+#SoftDev2 pd7
+#K16 -- Ready, Set, Math!
+#2018-04-27
+
 def union(a,b):
     return a + [x for x in b if x not in a]
 
