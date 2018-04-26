@@ -24,6 +24,6 @@ def symDifference(a,b):
 print symDifference([1,2,3],[2,3,4]) #[1,4]
 
 def cartProduct(a,b):
-    [(x,y) for x in a for y in b]
+    return [(x,y) for x in a for y in b]
     
 print cartProduct([1,2],['red','white'])
